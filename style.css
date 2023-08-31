@@ -1,0 +1,38 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  max-width: fit-content;
+  max-height: 100pxpx;
+  justify-content: center;
+  grid-gap: 1px;
+  padding:2px;
+  margin: auto;
+  background-color: rgb(26, 25, 27);
+  margin-top: -10px;
+   }
+
+ .grid-container > div {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+ .dates {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  }
+
+
+
+
+
+
+
+ 
